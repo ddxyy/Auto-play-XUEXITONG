@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import datetime
-Driver_path=r'-------chromedriver.exe'
+Driver_path=path
 driver = webdriver.Chrome(executable_path=Driver_path)
 driver.get('url')
 time.sleep(1)
