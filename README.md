@@ -1,5 +1,5 @@
 # Auto-play-XUEXITONG
-自动播放学习通视频
+学习通刷课，python自动播放学习通视频
 =
 简介
 --
