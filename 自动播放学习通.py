@@ -2,15 +2,15 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import datetime
-Driver_path=r'D:\pycharm\new\chromedriver.exe'
+Driver_path=r'--------'
 driver = webdriver.Chrome(executable_path=Driver_path)
 driver.get('https://mooc1.chaoxing.com/mycourse/studentstudy?chapterId=653210771&courseId=228380087&clazzid=62948589&cpi=266351710&enc=ee43abba38231fd354aeb0714f81d82d&mooc2=1&openc=307f1e141a4f8e18cba6a4c21729ffb0')
 time.sleep(1)
 #  登录
 zhanghao = driver.find_element(by=By.XPATH,value='/html/body/div[1]/div/div[1]/div[2]/form/div[1]/input')
 mima = driver.find_element(by=By.XPATH,value='/html/body/div[1]/div/div[1]/div[2]/form/div[2]/input')
-zhanghao.send_keys('15101608475')
-mima.send_keys('dongxinyang2004')
+zhanghao.send_keys('--------')
+mima.send_keys('--------')
 login = driver.find_element(by=By.XPATH,value='/html/body/div[1]/div/div[1]/div[2]/form/div[3]/button')
 login.click()
 print("登录成功")
